@@ -2,7 +2,7 @@ const { initializeApp, cert } = require('firebase-admin/app');
 const { getFirestore} = require('firebase-admin/firestore');
 const TelegramBot = require('node-telegram-bot-api');
 const request = require('request');
-const token = "7962791112:AAFebr_cOX6KhmLZ1HJq_k1nXnFIU8pJDSk";
+const token = "";
 const bot = new TelegramBot(token, { polling: true });
 var serviceAccount = require("./keys.json");
 initializeApp({
